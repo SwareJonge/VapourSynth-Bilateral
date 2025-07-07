@@ -26,7 +26,7 @@
 
 VS_EXTERNAL_API(void) VapourSynthPluginInit(VSConfigPlugin configFunc, VSRegisterFunction registerFunc, VSPlugin *plugin)
 {
-    configFunc("mawen1250.Bilateral", "bilateral",
+    configFunc("com.mawen.bilateral", "bilateral",
         "Bilateral filter and Gaussian filter for VapourSynth.",
         VAPOURSYNTH_API_VERSION, 1, plugin);
 
